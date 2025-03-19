@@ -4,7 +4,6 @@ import {
   IArticleOptions,
   IBasket,
   ICategory,
-  IExtra,
   ILocation,
   INotification,
   IProduct,
@@ -500,37 +499,6 @@ export const MESSSAGES = [
   },
 ];
 
-// extras cards
-export const EXTRAS: IExtra[] = [
-  {
-    id: 1,
-    name: 'BMW X5',
-    time: dayjs().format('hh:00'),
-    image: require('../assets/images/x5.png'),
-    saved: false,
-    booked: false,
-    available: true,
-  },
-  {
-    id: 2,
-    name: 'Tesla',
-    time: dayjs().format('hh:00'),
-    image: require('../assets/images/tesla.png'),
-    saved: false,
-    booked: false,
-    available: true,
-  },
-  {
-    id: 3,
-    name: 'Mercedes GLE',
-    time: dayjs().format('hh:00'),
-    image: require('../assets/images/gle.png'),
-    saved: false,
-    booked: false,
-    available: false,
-  },
-];
-
 // shopping basket recommentations
 export const BASKET_RECOMMENDATIONS: IBasket['items'] = [
   {
@@ -709,6 +677,5 @@ export default {
   ARTICLES,
   RECOMMENDATIONS,
   MESSSAGES,
-  EXTRAS,
   NOTIFICATIONS,
 };

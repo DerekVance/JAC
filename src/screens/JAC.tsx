@@ -73,7 +73,6 @@ const JAC = () => {
         });
 
         const data = await response.json();
-        console.log("data", data);
         if (data.choices && data.choices.length > 0) {
           const botMessage = {
 
@@ -156,7 +155,6 @@ const JAC = () => {
                 <Button
                   gradient={gradients.primary}
                   onPress={() => {
-                    console.log(text, chatUser.avatar);
                     handleSend([
                       {
                         _id: dayjs().unix(),
