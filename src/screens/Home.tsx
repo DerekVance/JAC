@@ -1,26 +1,18 @@
-import React, {useCallback, useState} from 'react';
+import React from "react";
 
-import {useData, useTheme, useTranslation} from '../hooks/';
-import {Block, Button, Image, Input, Product, Text} from '../components/';
+import {  useTheme, useTranslation } from "../hooks/";
+import { Block, Text } from "../components/";
 
 const Home = () => {
+  const {sizes} = useTheme();
   const {t} = useTranslation();
-  const [tab, setTab] = useState<number>(0);
-  const {following, trending} = useData();
-  const [products, setProducts] = useState(following);
-  const {assets, colors, fonts, gradients, sizes} = useTheme();
-
-  const handleProducts = useCallback(
-    (tab: number) => {
-      setTab(tab);
-      setProducts(tab === 0 ? following : trending);
-    },
-    [following, trending, setTab, setProducts],
-  );
-
   return (
     <Block>
-    
+      <Text h2 margin={sizes.padding} align={"center"}>{t('home.title')}</Text>
+      <Text h4 margin={sizes.padding} align={"center"}>{t('home.subTitle')}</Text>
+      <Text p margin={sizes.padding} align={"center"}>
+        {t('home.subDescription')}
+      </Text>
     </Block>
   );
 };

@@ -15,25 +15,25 @@ import {
 export const USERS: IUser[] = [
   {
     id: 1,
-    name: 'Devin Coldewey',
-    department: 'Marketing Manager',
-    stats: {posts: 323, followers: 53200, following: 749000},
-    social: {twitter: 'CreativeTim', dribbble: 'creativetim'},
+    name: 'Derek Vance',
+    department: 'Engineering',
+    stats: {posts: 0, followers: 0, following: 0},
+    social: {},
     about:
-      'Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).',
+      'Full Stack Engineer',
     avatar:
-      'https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?fit=crop&w=80&q=80',
+      'https://res.cloudinary.com/ddz7abcyq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1742348178/programmer-4709802_kzazw6.jpg',
   },
   {
     id: 2,
-    name: 'Bella Audrey',
-    department: 'Marketing Manager',
-    stats: {posts: 323, followers: 53200, following: 749000},
-    social: {twitter: 'CreativeTim', dribbble: 'creativetim'},
+    name: 'JAC',
+    department: 'Department of Intelligence',
+    stats: {posts: 0, followers: 0, following: 0},
+    social: {twitter: 'ROBOTS', dribbble: 'ROBOTS'},
     about:
-      'Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).',
+      'JARVIS inspired AI ChatBot',
     avatar:
-      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fit=crop&w=80&q=80',
+      'https://res.cloudinary.com/ddz7abcyq/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1742348039/k-2so-4169866_id4dsu.jpg',
   },
   {
     id: 3,

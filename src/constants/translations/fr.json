@@ -130,7 +130,9 @@
     "documentation": "Documentation"
   },
   "home": {
-    "title": "Soft UI",
+    "title": "Bienvenu!",
+    "subTitle": "Ceci est juste un autre chatbot",
+    "subDescription": "Tony Stark ne veut probablement pas l'utiliser, mais la personne moyenne pourrait trouver une utilisation pour les tâches générales du LLM.",
     "following": "Suivant",
     "trending": "Tendance"
   },

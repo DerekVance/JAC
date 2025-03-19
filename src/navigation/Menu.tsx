@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
-import {Animated, Linking, StyleSheet} from 'react-native';
+import {Animated, StyleSheet} from 'react-native';
 
 import {
   useDrawerStatus,
@@ -76,12 +76,10 @@ const DrawerContent = (props: DrawerContentComponentProps) => {
     [navigation, setActive],
   );
 
-  const handleWebLink = useCallback((url: string) => Linking.openURL(url), []);
-
   // screen list for Drawer menu
   const screens = [
     {name: t('screens.home'), to: 'Home', icon: assets.home},
-
+    {name: t('screens.jac'), to: 'JAC', icon: assets.chat},
   ];
 
   return (

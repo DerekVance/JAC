@@ -63,7 +63,8 @@
     "profile": "Profile",
     "settings": "Settings",
     "register": "Create account",
-    "extra": "Extra - Automotive"
+    "extra": "Extra - Automotive",
+    "jac": "JAC"
   },
   "navigation": {
     "home": "Just Another Chatbot",
@@ -82,14 +83,17 @@
     "register": "Register",
     "login": "Login",
     "extra": "Automotive",
-    "shopping": "Shopping Cart"
+    "shopping": "Shopping Cart",
+    "jac": "JAC"
   },
   "menu": {
     "started": "Getting Started",
     "documentation": "Documentation"
   },
   "home": {
-    "title": "JAC",
+    "title": "Welcome!",
+    "subTitle": "This is just another chatbot.",
+    "subDescription": "Tony Stark probobly doesn't want to use this but the average person could find use for general LLM tasks.",
     "following": "Following",
     "trending": "Trending"
   },
